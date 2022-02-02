@@ -1,0 +1,36 @@
+header {
+    background-image: url("../../../images/desktop/image-header.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header .nav-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+header .header-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Fraunces';
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+

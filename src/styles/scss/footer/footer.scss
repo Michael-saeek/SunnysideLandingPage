@@ -1,0 +1,56 @@
+@import '../colors/colors.scss';
+
+.footer {
+    background-color:#75cdbb;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    height: 40vh;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+   
+
+            li {
+              
+                margin: 0.5rem 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: $dark_moderate_cyan;
+                    transition: 200ms all ease-in-out;
+
+                 
+                }
+            }
+            
+        }
+    }
+}
+
+
+.byMichael p {
+    font-family: 'Barlow';
+    color: $dark_desaturated_cyan;
+}
+
+.byMichael a {
+    color: $dark_desaturated_cyan;
+    text-decoration: none;
+    transition: 200ms all ease-in-out;
+
+
+}
+
+.byMichael a:hover {
+    color: #fff;
+}

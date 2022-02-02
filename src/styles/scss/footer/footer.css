@@ -1,0 +1,44 @@
+/* (graphic design text) */
+/* (photography text) */
+/* footer */
+.footer {
+  background-color: #75cdbb;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 40vh;
+  width: 100%;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer div ul {
+  display: flex;
+  list-style: none;
+}
+.footer div ul li {
+  margin: 0.5rem 1rem;
+}
+.footer div ul li a {
+  text-decoration: none;
+  color: #458c7e;
+  transition: 200ms all ease-in-out;
+}
+
+.byMichael p {
+  font-family: "Barlow";
+  color: #25564b;
+}
+
+.byMichael a {
+  color: #25564b;
+  text-decoration: none;
+  transition: 200ms all ease-in-out;
+}
+
+.byMichael a:hover {
+  color: #fff;
+}/*# sourceMappingURL=footer.css.map */

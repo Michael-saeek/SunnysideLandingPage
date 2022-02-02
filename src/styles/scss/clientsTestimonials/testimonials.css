@@ -1,0 +1,64 @@
+.testimonials {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100vw;
+}
+.testimonials h2 {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.clientTestimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.clientTestimonials img {
+  width: 23%;
+  border-radius: 50%;
+  margin-bottom: 2.3rem;
+}
+.clientTestimonials .client1 {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+.clientTestimonials .client1 h3 strong {
+  font-family: "Fraunces";
+}
+.clientTestimonials .client2 {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+.clientTestimonials .client3 {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials .clientTestimonials {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials .clientTestimonials {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=testimonials.css.map */
