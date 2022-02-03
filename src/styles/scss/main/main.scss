@@ -169,6 +169,10 @@ section article {
     width: 100%;
 }
 
+.icon-burgerMenu svg {
+    cursor: pointer;
+}
+
 // Mobile 320px - Vertical
 @media (max-width: 320px) {
     .burger-menu {

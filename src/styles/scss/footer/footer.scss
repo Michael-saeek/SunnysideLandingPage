@@ -29,7 +29,7 @@
                     color: $dark_moderate_cyan;
                     transition: 200ms all ease-in-out;
 
-                 
+               
                 }
             }
             
@@ -37,6 +37,18 @@
     }
 }
 
+.footer div a:hover {
+    color: #fff;
+}
+
+.footer div ul li a svg:hover {
+    color: #fff;
+}
+
+
+.byMichael {
+    margin-top: 2rem;
+}
 
 .byMichael p {
     font-family: 'Barlow';
@@ -53,4 +65,20 @@
 
 .byMichael a:hover {
     color: #fff;
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .byMichael p {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .byMichael p {
+        text-align: center;
+    }
+
 }
